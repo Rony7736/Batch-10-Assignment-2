@@ -8,6 +8,10 @@
 body{
     font-family: "Inter", sans-serif;
 }
+section{
+    max-width: 100%;
+    margin: 0px auto;
+}
 
 /* Shared Styles */
 
@@ -47,7 +51,6 @@ body{
     justify-content: space-between;  
     align-items: center;
     margin-top: 50px;
-    
 }
 .brand{
     color: rgb(230, 83, 60);
@@ -61,7 +64,6 @@ body{
     border-radius: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
 }
 .nav-links > li{
     margin-right: 30px;
@@ -72,7 +74,6 @@ body{
     color: #ffffff;
     font-size: 1.15rem;
     font-weight: 400;
- 
 }
 #nav-hambars{
     color: #ffffff;
@@ -90,7 +91,8 @@ body{
 
 .banner-content{
     max-width: 80%;
-    margin: 60px auto;
+    margin: 0px auto;
+    margin-top: 60px;
 }
 .banner-text{
     width: 50%;
@@ -183,6 +185,56 @@ body{
     display: none;
 }
 
+/* Habit Styles */
+
+.habit-section{
+    background-color: black;
+}
+.habit-container{
+    max-width: 80%;
+    margin: 0px auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+}
+.habit-text{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.habit-description{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.habit-card-content{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.habit-card{
+    width: 230px;
+}
+.habit-card img{
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.img-heading{
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.img-description{
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 
 
@@ -201,7 +253,8 @@ body{
         display: block;
         font-size: 25px;
     }
-    .banner-content{
+    .banner-content,
+    .habit-card-content{
         flex-direction: column;
         width: 100%;
     }
@@ -258,3 +311,7 @@ body{
         font-size: 2rem;
         color: #E6533C;
     }
+    .habit-card{
+        margin-bottom: 25px;
+    }
+}
