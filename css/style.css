@@ -299,7 +299,8 @@ section{
         font-size: 25px;
     }
     .banner-content,
-    .habit-card-content{
+    .habit-card-content,
+    .run-container{
         flex-direction: column;
         width: 100%;
     }
@@ -358,5 +359,28 @@ section{
     }
     .habit-card{
         margin-bottom: 25px;
+    }
+    .run-container{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .run-section{
+        padding: 5px;
+    }
+    .run-left-content{
+        padding: 10px 30px;
+        margin: 20px;
+    }
+    .run-description{
+        margin-right: 0px;
+    }
+    .run-right-content img{
+        width: 80%;
+        margin-left: 35px;
+    }
+    #run-btn{
+        padding: 16px 95px;
+        align-items: center;
+        
     }
 }
