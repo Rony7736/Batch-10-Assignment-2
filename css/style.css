@@ -260,7 +260,7 @@ section{
 .run-right-content img{
     width: 80%;
     margin: 30px;
-    margin-left: 100px;
+    margin-left: 60px;
     border-radius: 18px;
 }
 .run-heading{
@@ -381,6 +381,5 @@ section{
     #run-btn{
         padding: 16px 95px;
         align-items: center;
-        
     }
 }
