@@ -392,6 +392,76 @@ th{
 }
 
 
+/* Blog Styles */
+
+.blog-section{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.blog-container{
+
+}
+.blog-heading{
+    font-size: 3rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.card{
+    max-width: 80%;
+    margin: 0px auto;
+    background: rgb(34, 34, 34);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 18px;
+    justify-content: space-evenly;
+}
+.blog-card{
+    max-width: 25%;
+    margin: 25px;
+    padding: 40px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0);
+    border-radius: 10px;
+}
+.blog-card img{
+    max-width: 40%;
+    height: 23%;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-heading{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.blog-description{
+    margin-bottom: 30px;
+}
+.blog-btn{
+    background-color: #E6533C;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    transition: all .3s ease-in;
+}
+.blog-btn:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.date{
+    font-size: 1.15rem;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
 /* Team Styles */
 
 .team-section{
