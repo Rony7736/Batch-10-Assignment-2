@@ -33,6 +33,9 @@ section{
     font-weight: 600;
 }
 
+.display-none{
+    display: none;
+}
 /* Header Styles */
 
 /* Navbar Related Styles */
@@ -96,16 +99,11 @@ section{
     margin-top: 60px;
 }
 .banner-text{
-    width: 50%;
     margin-top: 60px;
     margin-bottom: 80px;
 }
-.banner-img{
-    max-width: 100%;
-    margin: 0px auto;
-}
 .banner-img img{
-    max-width: 100%;
+    width: 100%;
 }
 .banner-title{
     width: 520px;
@@ -117,6 +115,7 @@ section{
     font-weight: 300;
 }
 .banner-description{
+    width: 60%;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 150px;
@@ -170,8 +169,15 @@ section{
     bottom: 120px;
     left: -140px;
 }
+.img-btn-2-text{
+    margin-top: 15px;
+}
 #figure{
     font-size: 3rem;
+    font-weight: 900;
+}
+#figure-2{
+    font-size: 2rem;
     font-weight: 900;
 }
 
@@ -316,16 +322,11 @@ section{
     background: rgb(34, 34, 34);
 }
 .claculator-chart{
-    width: 45%;
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
+    padding-bottom: 40px;
     margin: 0 auto;
-}
-.calculate-BMI{
-    width: 55%;
-    padding-top: 60px;
-    margin-bottom: 40px;
 }
 table{
     border-collapse: collapse;
@@ -350,6 +351,13 @@ th{
     margin-left: -35px;
     color: #ffffff;
 }
+.calculate-BMI{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.calculate-text{
+    width: 60%;
+}
 .calculate-heading{
     font-size: 1.75rem;
     font-weight: 900;
@@ -357,7 +365,6 @@ th{
     color: #ffffff;
 }
 .claculate-description{
-    width: 60%;
     margin-bottom: 30px;
 }
 .BMI-input{
@@ -402,16 +409,19 @@ th{
     padding-bottom: 30px;
 }
 .blog-container{
-
+    max-width: 80%;
+    margin: 0px auto;
+    padding-top: 2px;
 }
 .blog-heading{
     font-size: 3rem;
     text-align: center;
     color: #ffffff;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 .card{
-    max-width: 80%;
+    max-width: 100%;
     margin: 0px auto;
     background: rgb(34, 34, 34);
     padding-top: 40px;
@@ -590,9 +600,6 @@ th{
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.5);
 }
-.hr{
-    color: rgba(255, 255, 255, 0.5);
- }
 
 .footer-copyright{
     margin-top: 40px;
@@ -633,14 +640,16 @@ th{
         width: 100%;
     }
     .banner-text{
-        width: 100%;
+        max-width: 100%;
         margin-top: 5px;
         margin-bottom: 20px;
     }
     .banner-title{
+        width: 100%;
         font-size: 2.25rem;
     }
     .banner-description{
+        width: 100%;
         margin-right: 25px;
     }
     .button{
@@ -669,6 +678,10 @@ th{
         font-size: 2rem;
         font-weight: 900;
     }
+    #figure-2{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
     #text{
         font-size: 1rem;
     }
@@ -676,7 +689,9 @@ th{
         max-width: 210px;
         bottom: 180px;
         left: 0px;
-        padding-top: 25px;
+    }
+    .img-btn-2-text{
+        margin-top: 15px;
     }
     .shape{
         display: none;
@@ -684,7 +699,7 @@ th{
     #play-icon{
         display: block;
         margin-right: 20px;
-        margin-top: 12px;
+        margin-top: 25px;
         font-size: 2rem;
         color: #E6533C;
     }
@@ -742,11 +757,10 @@ th{
         margin-bottom: 15px;
     }
     .calculate-BMI{
-        width: 100%;
         margin-left: 30px;
     }
     .calculate-text{
-        width: 140%;
+        width: 80%;
     }
     .calculate-heading{
         font-size: 1.5rem;
@@ -761,6 +775,7 @@ th{
         padding: 15px;
     }
     .blog-heading{
+        margin-top: 10px;
         font-size: 2.25rem;
     }
     .blog-card{
