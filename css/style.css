@@ -31,6 +31,7 @@ section{
     border: none;
     font-size: 1.12rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .display-none{
@@ -115,7 +116,7 @@ section{
     font-weight: 300;
 }
 .banner-description{
-    width: 60%;
+    max-width: 60%;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 150px;
@@ -130,6 +131,7 @@ section{
     font-size: 1.12rem;
     font-weight: 600;
     margin-left: 15px;
+    cursor: pointer;
 }
 .banner-img{
     position: relative;
@@ -455,17 +457,20 @@ th{
 }
 .blog-btn{
     background-color: #E6533C;
-    padding: 10px 25px;
+    padding: 15px 35px;
     border-radius: 10px;
     color: #ffffff;
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 25px;
+    border: none;
+    cursor: pointer;
     transition: all .3s ease-in;
 }
 .blog-btn:hover{
     background-color: #ffffff;
     color: black;
+    box-shadow: 8px 10px 20px rgba(128 0 255);
 }
 .date{
     font-size: 1.15rem;
