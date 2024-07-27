@@ -99,7 +99,7 @@ section{
     margin: 0px auto;
     margin-top: 60px;
 }
-.banner-text{
+.banner-heading{
     margin-top: 60px;
     margin-bottom: 80px;
 }
@@ -107,7 +107,6 @@ section{
     width: 100%;
 }
 .banner-title{
-    width: 520px;
     font-size: 5rem;
     color: #ffffff;
 }
@@ -115,8 +114,11 @@ section{
     font-family: "Playwrite BE VLG", cursive;
     font-weight: 300;
 }
+.banner-text{
+    max-width: 75%;
+}
 .banner-description{
-    max-width: 60%;
+    max-width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 150px;
@@ -644,7 +646,7 @@ th{
         flex-direction: column;
         width: 100%;
     }
-    .banner-text{
+    .banner-heading{
         max-width: 100%;
         margin-top: 5px;
         margin-bottom: 20px;
