@@ -313,7 +313,7 @@ section{
     margin: 0px auto;
     margin-bottom: 80px;
 }
-.claculator-text{
+.calculator-text{
     font-size: 3rem;
     color: #ffffff;
     font-weight: 900;
@@ -325,7 +325,7 @@ section{
     background-color: limegreen;
     background: rgb(34, 34, 34);
 }
-.claculator-chart{
+.calculator-chart{
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
@@ -368,7 +368,7 @@ th{
     margin-bottom: 25px;
     color: #ffffff;
 }
-.claculate-description{
+.calculate-description{
     margin-bottom: 30px;
 }
 .BMI-input{
@@ -752,10 +752,13 @@ th{
         margin-left: 20px;
         margin-bottom: 30px;
     }
-    .claculator-text{
+    .calculator-row{
+        width: 95%;
+    }
+    .calculator-text{
         font-size: 2.25rem;
     }
-    .claculator-chart{
+    .calculator-chart{
         width: 100%;
         padding-top: 30px;
     }
@@ -765,7 +768,7 @@ th{
         margin-bottom: 15px;
     }
     .calculate-BMI{
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .calculate-text{
         width: 80%;
