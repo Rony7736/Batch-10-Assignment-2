@@ -10,7 +10,7 @@ body{
     font-family: "Inter", sans-serif;
 }
 section{
-    max-width: 100%;
+    max-width: 1920px;
     margin: 0px auto;
 }
 
@@ -42,7 +42,7 @@ section{
 /* Navbar Related Styles */
 
 .header-section{
-    max-width: 100%;
+    max-width: 1920px;
     background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);   
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: overlay;
